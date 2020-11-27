@@ -5,7 +5,9 @@ body {
   font-size: 12px;
 }
 
-html, body, #map {
+html,
+body,
+#map {
   height: 100%;
   width: 100vw;
 }
@@ -62,7 +64,7 @@ html, body, #map {
   height: 50px;
   margin-left: -25px;
   margin-top: -40px;
-  background-image: url('../images/marker.png');
+  background-image: url("../img/marker.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
