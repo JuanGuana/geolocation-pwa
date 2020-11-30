@@ -40,11 +40,6 @@ body,
   width: 100%;
 }
 
-.selector {
-  display: flex;
-  justify-content: space-around;
-}
-
 #control {
   text-align: center;
   position: fixed;

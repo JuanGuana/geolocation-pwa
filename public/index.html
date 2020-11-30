@@ -6,12 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <script>
+    <!-- <script>
       if (location.protocol !== "https:") {
         location.protocol = "https:";
       }
-    </script>
-
+    </script> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -28,10 +28,6 @@
     <meta
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
-    />
-    <meta
-      http-equiv="origin-trial"
-      content="Aj48SAN1EJXtSGJVzQotGPDYf336nStMH0BGxzv+ZA51CssNUGvWgMSpc/h/mXvl2u2YkIAeNsK5SPE85KFregkAAABaeyJvcmlnaW4iOiJodHRwczovL3dha2UtbG9jay1kZW1vLmdsaXRjaC5tZTo0NDMiLCJmZWF0dXJlIjoiV2FrZUxvY2siLCJleHBpcnkiOjE1OTQxNjYzOTl9"
     />
     <link
       rel="shortcut icon"
@@ -55,17 +51,21 @@
   <body>
     <div id="wakeLockControl">
       <h1>Geolocalization with Screen Wake Lock PWA</h1>
-      <div class="selector">
+      <div>
         <label
           ><input type="checkbox" id="wakeLockCheckbox" /> Activate
           <code>screen</code> Wake Lock</label
         >
+      </div>
+      <div>
         <label
           ><input type="checkbox" id="reacquireCheckbox" /> Re-Acquire
           <code>screen</code> Wake Lock On Visibility Changes</label
         >
       </div>
-
+      <div>
+        <button id="fullScreenButton" type="button">Go Full Screen</button>
+      </div>
       <div id="statusDiv"></div>
     </div>
     <div id="map"></div>
