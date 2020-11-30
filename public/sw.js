@@ -9,6 +9,7 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
     './css/style.css',
     './script.js',
+    './wakeLock.js',
     './img/ProgramadorFitness.png',
     './img/favicon.png'
   ]
