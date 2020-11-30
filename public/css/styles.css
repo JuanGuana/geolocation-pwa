@@ -16,7 +16,7 @@ body,
 
 #map {
   position: fixed;
-  top: 80px;
+  top: 125px;
   left: 0px;
   bottom: 100px;
   width: 100%;
@@ -42,7 +42,6 @@ body,
 #selector {
   display: flex;
   justify-content: space-around;
-  font-size: 14px;
 }
 
 #control {
