@@ -10,11 +10,13 @@ body,
 #map {
   height: 100%;
   width: 100vw;
+  color: white;
+  background-color: #24292e;
 }
 
 #map {
   position: fixed;
-  top: 0px;
+  top: 80px;
   left: 0px;
   bottom: 100px;
   width: 100%;
@@ -24,18 +26,30 @@ body,
   text-align: center;
   position: fixed;
   bottom: 60px;
-  background-color: #fff7fa;
+  background-color: #24292e;
   padding: 10px;
   height: 20px;
   width: 100%;
   line-height: 20px;
 }
 
+#wakeLockControl {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+#selector {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
 #control {
   text-align: center;
   position: fixed;
   bottom: 0px;
-  background-color: #fff7fa;
+  background-color: #24292e;
   padding: 10px;
   height: 40px;
   width: 100%;
