@@ -30,6 +30,7 @@ if ('WakeLock' in window && 'request' in window.WakeLock) {
       } else {
         statusDiv.textContent = `${e.name}, ${e.message}`;
         console.error(`${e.name}, ${e.message}`);
+        alert(`${e.name}, ${e.message}`)
       }
     });
     wakeLockCheckbox.checked = true;
@@ -81,6 +82,7 @@ if ('WakeLock' in window && 'request' in window.WakeLock) {
       wakeLockCheckbox.checked = false;
       statusDiv.textContent = `${e.name}, ${e.message}`;
       console.error(`${e.name}, ${e.message}`);
+      alert(`${e.name}, ${e.message}`);
     } 
   };
   
@@ -111,4 +113,5 @@ if ('WakeLock' in window && 'request' in window.WakeLock) {
 } else {  
   statusDiv.textContent = 'Wake Lock API not supported.';
   console.error('Wake Lock API not supported.');
+  alert('Wake Lock API not supported.')
 }

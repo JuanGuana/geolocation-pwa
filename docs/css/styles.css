@@ -11,7 +11,8 @@ body,
   height: 100%;
   width: 100vw;
   color: white;
-  background-color: #24292e;
+  /* background-color: #24292e; */
+  background-color: teal;
 }
 
 #map {
@@ -39,7 +40,7 @@ body,
   width: 100%;
 }
 
-#selector {
+.selector {
   display: flex;
   justify-content: space-around;
 }
